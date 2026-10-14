@@ -296,8 +296,13 @@ print(~5)
 # a = 4
 # b = 5
 
-# if (not(a == b and a > b)):
-#     print("thik hai")
+if (not(a == b and a > b)):
+    print("thik hai")
+else:
+    print("thik nhi hai ")    
+
+
+# 
 
 
 
