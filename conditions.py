@@ -165,3 +165,50 @@ if (5 < 2):
 
 
 # Scholarship Eligiblity
+
+# problem : student kee scholarship eligiblity check krna hai 
+
+# name = input("Enter you name :")
+# marks = int(input("Enter you marks :"))
+# family_income = int(input("Family ki income batao :"))
+
+# if marks >= 80:
+
+#     if family_income <= 300000:
+#         print(name,"Congrats 🎉 You Are Scholarship Eligible")
+#     else:
+#         print("Income Exceeds Limit")  
+
+# else:
+#     print("Marks Criteria Not met") 
+
+# Job Eligiblity
+# name = 
+# age = 
+# experience 
+# skill_test_pass = True  
+
+
+
+
+
+
+
+# Calculator using conditions
+
+
+a = float(input("Enter first number :"))
+b = float(input("Enter second number :"))
+
+operator = input("Enter operator (+ , - , * , /):")
+
+if operator == "+":
+    print(a+b)
+elif operator == "-":
+    print(a-b)
+elif operator == "*":
+    print(a*b)
+else:
+    print(a/b)        
+
+    
