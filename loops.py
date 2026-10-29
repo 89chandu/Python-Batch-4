@@ -294,8 +294,28 @@ marks = [80,90,70,85]
 
 # sum of numbers from 1 to 10
 
+# total = 0
+
+# for i in range(1,11):
+#     total = total + i
+
+# print("Total :",total)  
+
+
+# sum even numbers 
+
+# 2 - 21
+
 total = 0
 
-for i in range(1,11):
+for i in range(2,21,2):
     total = total + i
-print("Total :",total)    
+
+print(total)
+
+
+
+
+
+
+
