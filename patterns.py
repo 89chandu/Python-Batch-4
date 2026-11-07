@@ -330,14 +330,176 @@
 
 n = 4
 
-for i in range(1,n+1):#row
-    for j in range(n-2):
-        print(" ",end="")
-    for k in range(2*4-1):
-        print("*",end="")
-    print()        
+# for i in range(1,n+1):#row
+#     for j in range(n-i):
+#         print(" ",end="")
+#     for k in range(2*i-1):
+#         print("*",end="")
+#     print()        
+
+
+
+# innverted Pyramid
+# *********
+# *******
+#  *****
+#   ***
+#    * 
+
+# n = 5
+# for i in range(n,0,-1):#row
+#     # space print wala loop 
+#     for j in range(n-1):
+#         print(" ",end="")
+#     #star print krne wala loop 
+#     for k in range(2*i - 1):
+#         print("*",end="")
+#     print()  
+
+# step 1 :
+
+# i = 5 ,  -1 
+# j = 0 , 0
+# k = 0 ,  k = 9
+
+# step 2 :
+# i = 4 
+# j = 0 ,  j = 1
+# k = 0 , 
+
+# step 3
+
+# i = 3
+
+# step 4
+
+# i = 2
+
+# step 5
+# i = 1
 
 
 
 
 
+
+
+# Diamond Pattern
+
+n = 4
+
+# # upar half
+# for i in range(1,n):#row
+#     for j in range(n-i):
+#         print(" ",end="")
+#     for k in range(2*i-1):
+#         print("*",end="")
+#     print()  
+
+# # lower half
+# for i in range(n,0,-1):#row
+#     # space print wala loop 
+#     for j in range(n-i):
+#         print(" ",end="")
+#     #star print krne wala loop 
+#     for k in range(2*i - 1):
+#         print("*",end="")
+#     print()       
+
+
+
+
+
+# Hollow pattern
+
+# Hollow Square
+
+# i == 0 or i == n - 1 or j == 0 or j == n - 1:
+# en charo me se koi ek condtion true hai to "*" print otherwise space print hoga
+
+# n = 5
+
+# for i in range(n):#rows
+#     for j in range(n):
+#         if i == 0 or i == n - 1 or j == 0 or j == n - 1:
+#             print("*" , end=" ")
+#         else:
+#             print(" ",end=" ")   
+#     print()  
+
+# step 1:
+#  i = 0 , i  = 5 
+# j = 0 , j = 5
+# j = 1
+# j = 2
+# j = 3
+# j = 4
+# * * * * *   
+
+# step 2 : 
+# i = 1 
+# j = 0 , j = 5  
+# j = 1
+# j = 2
+# j = 3
+# j = 4
+# *       *
+
+# step 3:
+# i = 2 
+# j = 0 , j = 5  
+# j = 1
+# j = 2
+# j = 3
+# j = 4
+# *       *    
+# 
+# step 4:
+#   
+
+# i = 3 
+# j = 0 , j = 5  
+# j = 1
+# j = 2
+# j = 3
+# j = 4
+
+# step 5 :
+# i = 4
+# j = 0
+# j = 1
+# j = 2
+# j = 3
+# j = 4
+
+# * * * * *
+
+
+# Hollow Right Angle
+
+# n = 4
+
+# for i in range(1,n+1):
+#     for j in range(1,4+1):
+#         if j == 1 or j == i or i == n:
+#             print("*", end=" ")
+#         else:
+#             print(" ",end=" ")  
+#     print()  
+    
+
+#  i = 1     
+#  j = 1  
+
+# i = 2
+# j = 1
+# j = 2
+# j = 3
+
+
+# i = 3
+# j = 1
+
+
+# i = 4
+            
