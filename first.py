@@ -113,10 +113,10 @@
 
 # 1. Letter se yaa phir _ (underscore) se start hona chahiye
 
-name = "Raja" #right
-_name = "Raju" #right
-# 1name = "Rahul" #wrong
-name1 = "Rahul" #right
+# name = "Raja" #right
+# _name = "Raju" #right
+# # 1name = "Rahul" #wrong
+# name1 = "Rahul" #right
 
 # print(name)
 # print(_name)
@@ -134,9 +134,9 @@ name1 = "Rahul" #right
 
 # 4. python me varibale name case sensitive hote hai
 
-age = 21
-Age = 21
-AGE = 21
+# age = 21
+# Age = 21
+# AGE = 21
 
 # 5. Python keywords ko varibales nhi bna skte hai
 
@@ -340,6 +340,75 @@ print(student["age"])
 
 
 
+
+
+
+
+
+
+
+# reverse number 
+
+123
+
+reverse = 321
+
+123 > 0
+
+123 % 10 = 3
+
+reverse = 0 * 10 + 3 = 3
+
+number = 12
+
+12 > 0 
+
+12 % 10 = 2
+
+reverse = 3 * 10 + 2 = 32
+
+
+12 // 10 = 1
+
+
+1 > 0
+
+1 % 10 = 1
+
+reverse = 32 * 10 + 1 = 321
+
+number = 0
+
+0 > 0
+
+
+
+
+
+
+# Count the digits of a number
+# calculate the sum of all digits
+
+# num = 153
+
+
+
+# 153
+num = 153
+original = 153
+temp = 0
+
+total = 153
+count = 3
+
+0 > 0
+
+temp = num = 15
+
+0 > 0
+
+digit = 1 % 10 = 1 , 
+total = 0 + 5 ** 3 = 152 + 1
 
 
 

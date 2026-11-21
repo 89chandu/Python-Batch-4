@@ -172,15 +172,96 @@
 #     print() 
 
 
-
-
-        
-           
-    
-for i in range(1,10):
-    for j in range(1,i+1):
-        print(chr(64+j),end=" ")
-    print()    
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print(chr(64+j),end=" ")
+#     print()    
 
 # Note : asscii value 65 = A
-#  64 + j = 65 ,  
+#  64 + j = 65 , 
+
+# for i in range(10,0 , -1):
+#     for j in range(1,i+1):
+#         print(chr(64+j),end=" ")
+#     print()     
+
+
+
+
+
+
+
+
+
+
+
+
+# Inverse Alphabet Pattern
+# ch = 64
+# for i in range(1,10): #rows
+#     for j in range(1,i+1):
+#         print(chr(ch+j),end=" ")
+#     print()
+
+
+# Countinous alaphabet triangle
+
+# A 
+# B C
+# D E F
+# G H I J
+# K L M N O
+
+# ch = 68
+# for i in range(1,6): #rows
+#     for j in range(1,3+1):
+#         print(chr(67) , end=" ")
+#         ch = ch + 1
+#     print()    
+
+    #  i = 1
+    # i = 2
+    # i = 3
+
+
+
+
+# for i in range(1,6): #rows
+#     for j in range(1,i+1):
+#         print(chr(64+j) , end=" ")
+#     print()    
+
+
+
+# Reverse Alphabet Triangle Pattern
+
+# A
+# B A
+# C B A
+# D C B A
+# E D C B A
+
+# for i in range(1,6): #rows
+#     for j in range(i,0,-1):
+#         print(chr(64+j),end=" ")
+#     print()    
+
+
+# n = 5
+
+# for i in range(n):
+#     for j in range(n):
+
+#         if i == 0 or i == n - 1 or j == 0 or j == n - 1:
+#             print(chr(65+j) , end=" ")
+#         else:
+#             print(" ",end=" ")
+#     print()            
+
+
+
+
+
+
+
+

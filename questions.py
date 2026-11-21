@@ -64,3 +64,38 @@
 for i in range(1,101):
     if i % 7 == 0:
         print(i)
+
+
+
+
+
+
+        # find smallest digit in a number 
+        # check number is prime or not
+        # find the GCD of two number
+        # find LCM of two number 
+        # find largest digit in a number 
+
+
+        
+
+
+
+
+        # # a = 4 , b = 6
+
+        # (4 * 1) % 6 == 
+        # (4 * 2) % 6 == 2
+        # (4 * 3) % 6 == 0
+
+
+
+        
+
+        # a = 12 , b = 18
+        # i = 1
+        # hcf = 1
+
+        # while 1 <= 12 and 1 <= 18:
+
+        #     12 % 1 == and 18 % 1 == 0
